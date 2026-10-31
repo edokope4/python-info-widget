@@ -1,0 +1,25 @@
+Santoral:
+curl --request GET \
+     --url https://api.boostr.cl/santorales/hoy.json \
+     --header 'accept: application/json'
+
+Dolar hoy
+curl --request GET \
+     --url https://api.boostr.cl/economy/indicator/dolar.json \
+     --header 'accept: application/json'
+
+Euro hoy
+curl --request GET \
+     --url https://api.boostr.cl/economy/indicator/euro.json \
+     --header 'accept: application/json'
+
+UF hoy
+curl --request GET \
+     --url https://api.boostr.cl/economy/indicator/uf.json \
+     --header 'accept: application/json'
+
+UTM hoy
+curl --request GET \
+     --url https://api.boostr.cl/economy/indicator/utm.json \
+     --header 'accept: application/json'
+
